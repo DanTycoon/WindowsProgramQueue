@@ -5,4 +5,10 @@ I tried looking for something that would let me queue up multiple 7-zip runs, an
 
 So, I created this simple tool to solve this problem for 7-zip and any other program that you might want to queue.
 
-This utility gives you the ability to queue up multiple programs one after the other and have them run sequentially. It also provides the ability to run multiple programs from the queue at once, if you need to.
+This utility gives you the ability to queue up multiple programs one after the other and have them run sequentially. It also provides the ability to run multiple programs from the queue at once, if you need to. Finally, you can also set a timeout per program.
+
+![Image 1](https://raw.githubusercontent.com/DanTycoon/WindowsProgramQueue/master/Screenshots/Image1.png)
+
+![Image 2](https://raw.githubusercontent.com/DanTycoon/WindowsProgramQueue/master/Screenshots/Image2.png)
+
+![Image 3](https://raw.githubusercontent.com/DanTycoon/WindowsProgramQueue/master/Screenshots/Image3.png)
