@@ -161,7 +161,7 @@
             this.Controls.Add(this.executableTextbox);
             this.MinimumSize = new System.Drawing.Size(348, 145);
             this.Name = "AddItem";
-            this.Text = "AddItem";
+            this.Text = "Add Task";
             ((System.ComponentModel.ISupportInitialize)(this.timeoutTextbox)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

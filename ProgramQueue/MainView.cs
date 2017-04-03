@@ -313,6 +313,7 @@ namespace ProgramQueue
             upButton.Enabled = true;
             downButton.Enabled = true;
             loadToolStripMenuItem.Enabled = true;
+            multProcCount.Enabled = true;
         }
 
         private void StartRunning()
@@ -350,6 +351,7 @@ namespace ProgramQueue
             upButton.Enabled = false;
             downButton.Enabled = false;
             loadToolStripMenuItem.Enabled = false;
+            multProcCount.Enabled = false;
         }
 
         private void UpdateProgress(object sender, EventArgs e)
@@ -366,7 +368,9 @@ namespace ProgramQueue
 
         private void WaitForExit(object sender, EventArgs e)
         {
-            if(!runner.Running)
+            itemList.Refresh();
+
+            if (!runner.Running)
             {
                 FinishRunning();
             }
